@@ -16,20 +16,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <!-- Meta Tags Start ------------------------------------------------------>
 	 <meta http-equiv='content-language' content='en-US'>
-    <meta name="title" content="About Us - Visit Sri Lanka">
-    <meta name="description" content="Sri Lanka is an island nation located in the Indian Ocean, just off the southeastern coast of India.">
+    <meta name="title" content="About Us - Visit Dorylus Travel Adventures ">
+    <meta name="description" content="Dorylus Travel Adventures  is an island nation located in the Indian Ocean, just off the southeastern coast of India.">
     <meta name="keywords" content="">
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://visitsrilanka.live/about.php">
-    <meta property="og:title" content="About Us - Visit Sri Lanka">
-    <meta property="og:description" content="Sri Lanka is an island nation located in the Indian Ocean, just off the southeastern coast of India.">
+    <meta property="og:title" content="About Us - Visit Dorylus Travel Adventures ">
+    <meta property="og:description" content="Dorylus Travel Adventures  is an island nation located in the Indian Ocean, just off the southeastern coast of India.">
     <meta property="og:image" content="/images/preview.webp">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://visitsrilanka.live/about.php">
-    <meta property="twitter:title" content="About Us - Visit Sri Lanka">
-    <meta property="twitter:description" content="Sri Lanka is an island nation located in the Indian Ocean, just off the southeastern coast of India.">
+    <meta property="twitter:title" content="About Us - Visit Dorylus Travel Adventures ">
+    <meta property="twitter:description" content="Dorylus Travel Adventures  is an island nation located in the Indian Ocean, just off the southeastern coast of India.">
     <meta property="twitter:image" content="/images/preview.webp">
     <!-------------------------------------------------------- Meta Tags End -->
     <title>About Us</title>
@@ -56,7 +56,9 @@
 
 <header class="header">
 
-    <a href="#" class="logo"> <i class="fas fa-hiking"></i> travel. </a>
+    <a href="#" class="logo">
+    <img src="images/logo.jpeg" alt="Your Company Name" width="60" height="60">
+</a>
 
     <nav class="navbar">
         <div id="nav-close" class="fas fa-times"></div>
@@ -101,10 +103,10 @@
             <h1>Who We Are?</h1>
         </div>
         <div class="paragraph">
-            <p>visitsrilanka.live is your go-to resource for planning a trip to Sri Lanka in 2023 which is a product of a group of undergraduate students in NSBM Green University under the web application development module. <br>Our website features a wide range of information on the top attractions, adventure activities, upcoming events, a blog of popular tourist destinations, and traditional products such as masks, spices, arts, foods, industrial goods... etc. 
+            <p>visitsrilanka.live is your go-to resource for planning a trip to Dorylus Travel Adventures  in 2023 which is a product of a group of undergraduate students in NSBM Green University under the web application development module. <br>Our website features a wide range of information on the top attractions, adventure activities, upcoming events, a blog of popular tourist destinations, and traditional products such as masks, spices, arts, foods, industrial goods... etc. 
 
 
-             Whether you're looking to relax on beautiful beaches, explore ancient temples, or discover the local cuisine, visitsrilanka.live has you covered. We can't wait to help you plan an unforgettable trip to Sri Lanka.</p>
+             Whether you're looking to relax on beautiful beaches, explore ancient temples, or discover the local cuisine, visitsrilanka.live has you covered. We can't wait to help you plan an unforgettable trip to Dorylus Travel Adventures .</p>
         </div>
     </div>
     
@@ -116,7 +118,7 @@
             <p> <a href="https://www.nsbm.ac.lk/"><b> NSBM Green University</b></a>, the nation’s premier degree-awarding institute, is the first of its kind in South Asia. It is a government-owned self-financed institute that operates under the purview of the Ministry of Education. As a leading educational centre in the country, NSBM has evolved into becoming a highly responsible higher education institute that offers unique opportunities and holistic education on par with international standards while promoting sustainable living. <br>
                 NSBM offers a plethora of undergraduate and postgraduate degree programmes under five faculties: Business, Computing, Engineering, Science and Postgraduate & Professional Advancement. These study programmes at NSBM are either its own programmes recognised by the University Grants Commission and the Ministry of Higher Education or world-class international programmes conducted in affiliation with top-ranked foreign universities such as University of Plymouth, UK, and Victoria University, Australia. <br>
                 Focused on producing competent professionals and innovative entrepreneurs for the increasingly globalising world, NSBM nurtures its graduates to become productive citizens of society with their specialisation ranging in study fields such as Business, Management, Computing, IT, Engineering, Science, Psychology, Nursing, Interior design, Quantity Surveying, Law and Multimedia. <br>
-                Inspired by the vision of being Sri Lanka’s best-performing graduate school and being recognised internationally, NSBM currently achieves approximately 3000 new enrollments per year and houses above 11,000 students reading over 50 degree programmes under 4 faculties. Moreover, over the years, NSBM Green University has gifted the nation with 14,000+ graduates and has proved its global presence with an alumni network spread all across the world. <br>
+                Inspired by the vision of being Dorylus Travel Adventures ’s best-performing graduate school and being recognised internationally, NSBM currently achieves approximately 3000 new enrollments per year and houses above 11,000 students reading over 50 degree programmes under 4 faculties. Moreover, over the years, NSBM Green University has gifted the nation with 14,000+ graduates and has proved its global presence with an alumni network spread all across the world. <br>
                 Nestling on a 40-acre land amidst the greenery and serenity in Pitipana, Homagama, NSBM Green University, is an ultra-modern university complex constructed with state-of-the-art facilities and amenities that provides the perfect setting for high-quality teaching, learning and research. <br>
             </p>
         </div>
