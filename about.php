@@ -21,7 +21,7 @@
     <meta name="keywords" content="">
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://visitsrilanka.live/about.php">
+    
     <meta property="og:title" content="About Us - Visit Dorylus Travel Adventures ">
     <meta property="og:description" content="Dorylus Travel Adventures  is an island nation located in the Indian Ocean, just off the southeastern coast of India.">
     <meta property="og:image" content="/images/preview.webp">
@@ -35,7 +35,7 @@
     <title>About Us</title>
 
 	<!-- tab logo -->
-    <link rel="icon" type="image/x-icon" href="/images/tablogo.png">
+    <link rel="icon" type="image/x-icon" href="	images/logo.jpeg">
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
