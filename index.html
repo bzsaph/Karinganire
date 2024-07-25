@@ -21,6 +21,7 @@
     
     <!-------------------------------------------------------- Meta Tags End -->
     <title>Visit Dorylus Travel Adventures </title>
+  
 
     <!-- tab logo -->
    
@@ -165,29 +166,103 @@
         <div class="box">
             <img src="images/karinganire/Mantis Akagera Game Lodge_8.jpg" alt="">
             <h3>Paragliding</h3>
-            <p>Recently introduced to Dorylus Travel Adventures , this adventure sport is an ideal way to indulge yourself...</p>
-            <a href="adventure.html#para" class="btn">read more</a>
+            <p>Akagera National Park covers an area of 112,000 hectares in the east of Rwanda, 
+            </p>
+              <div class="more-content">
+                <p>
+                  on the border with
+                  Tanzania. It is named for the Akagera River that flows along its eastern boundary and feeds into a
+                  labyrinth of lakes. Rolling hills
+                  of Acacia bush with panoramic views across scattered grassland, patches
+                  of thick forest and a mosaic of swamp
+                  
+                    Akagera National Park covers an area of 112,000 hectares in the east of Rwanda, on the border with
+                    Tanzania. It is named for the Akagera River that flows along its eastern boundary and feeds into a
+                    labyrinth of lakes. Rolling hills
+                    of Acacia bush with panoramic views across scattered grassland, patches
+                    of thick forest and a mosaic of swamp
+                    -
+                    fringed lakes along the meandering Akagera watercourse
+                    contribute to this park
+                    ’
+                    s almost unrivalled scenic beauty.
+                    As the only protected savannah e
+                    nvironment in the country, Akagera is unique in Rwanda. Large herds of
+                    buffalo and impala, zebra and topi are commonly seen on the open plains, whilst smaller antelope such
+                    as oribi, klipspringer, bushbuck and reedbuck exist widely throughout the park. Ele
+                    phant tend to stay
+                    around the lakes which are inhabited by large populations of hippo and crocodiles. Lions roam the
+                    northern plains, having grown in number from the seven introduced in 2015 to over 60 individuals that
+                    we have in the park today. The reintr
+                    oduced black rhinos (2017) largely remain in the thickets in the
+                    south of the park, while the introduced population of white rhinos (2021) are in the southern and
+                    northern plains of Akagera. Baboons and vervet monkeys are commonplace, less so is the secreti
+                    ve blue
+                    monkey. Leopard, hyena and jackal are also residents and may be seen on a night drive along with genet,
+                    serval, bushbabies, porcupine and other nocturnal wildlife. An important population of sitatunga lives in
+                    the papyrus swamps along with other
+                    rarities such as the shoebill and other papyrus endemic bird
+                    species. These are among the more than 480 bird species found in the park, which make Akagera a
+                    haven for bird enthusiasts.
+                  </p>
+            </div>
+            <a href="javascript:void(0);" class="btn" onclick="toggleContent(this)">Read More</a>
         </div>
 
         <div class="box">
-            <img src="images/karinganire/b682_ho_03_p_2048x1536.jpg" alt="">
-            <h3>Boart Tours</h3>
-            <p>Whether you in a packed schedule or hate wasting time on the road or simply like to indulge...</p>
-            <a href="adventure.html#heli" class="btn">read more</a>
-        </div>
+          <img src="images/karinganire/b682_ho_03_p_2048x1536.jpg" alt="">
+          <h3>Boart Tours</h3>
+          <p>Whether you are in a packed schedule or hate wasting time on the road or simply like to indulge</p>
+          <div class="more-content">
+            <p> If you are looking for a variation on the usual safari ex
+                perience, a boat trip on Lake Ihema will not
+                disappoint. Drift along the forest
+                -
+                fringed lake edge, past huddles of hippo and basking crocodiles. For the
+                serious birder a boat trip is a must. Trips are scheduled four times per day at 7.30am, 9am, 3pm and
+                4.
+                30pm. Non
+                -
+                scheduled, private, trips can also be arranged between 10.30am to 1.30pm for an hour.</p>
+          </div>
+          <a href="javascript:void(0);" class="btn" onclick="toggleContent(this)">Read More</a>
+      </div>
 
         <div class="box">
             <img src="images/balloon.jpg" alt="">
             <h3>Hot Air Ballooning</h3>
-            <p>Why Not Enjoy This Beautiful Paradise In The Bird’s Eye View Floating Over The Thick Dense Forests...</p>
-            <a href="adventure.html#balloon" class="btn">read more</a>
+            <p>Why Not Enjoy This Beautiful Paradise In The Bird’s Eye View Floating Over The Thick Dense Forests</p>
+           
+              <div class="more-content">
+                <p>At Dorylus Travel Adventures (DTA), we are dedicated to providing unique travel experiences
+                  that showcase the best of Rwanda and East Africa while making a positive impact on both travelers
+              and the destinations we visit. Our focus on conservation and scie
+              ntific research allows you to be part
+              of citizen science opportunities, contributing to the study of lesser
+              -
+              known species across various
+              taxa. Join us for an immersive adventure that combines travel with making a real difference in the
+              world.</p>
+            </div>
+            <a href="javascript:void(0);" class="btn" onclick="toggleContent(this)">Read More</a>
         </div>
 
         <div class="box">
             <img src="images/safa2.jpg" alt="">
             <h3>Wild life Safari</h3>
-            <p>With a wildlife abundance rich in diversity and quantity, Dorylus Travel Adventures  promises you...</p>
-            <a href="adventure.html#safa" class="btn">read more</a>
+            <p>With a wildlife abundance rich in diversity and quantity, Dorylus Travel Adventures  promises you</p>
+              <div class="more-content">
+                <p>At Dorylus Travel Adventures (DTA), we are dedicated to providing unique travel experiences
+                  that showcase the best of Rwanda and East Africa while making a positive impact on both travelers
+              and the destinations we visit. Our focus on conservation and scie
+              ntific research allows you to be part
+              of citizen science opportunities, contributing to the study of lesser
+              -
+              known species across various
+              taxa. Join us for an immersive adventure that combines travel with making a real difference in the
+              world.</p>
+            </div>
+            <a href="javascript:void(0);" class="btn" onclick="toggleContent(this)">Read More</a>
         </div>
 
     </div>
@@ -851,6 +926,31 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+<script>
+  function toggleContent(button) {
+      // Get all the more-content elements
+      const allMoreContent = document.querySelectorAll('.more-content');
+
+      // Close any currently open sections except the one that is being clicked
+      allMoreContent.forEach(content => {
+          if (content.style.display === 'block' && content !== button.parentElement.querySelector('.more-content')) {
+              content.style.display = 'none';
+              content.parentElement.querySelector('.btn').textContent = 'Read More';
+          }
+      });
+
+      // Toggle the clicked section
+      const box = button.parentElement;
+      const moreContent = box.querySelector('.more-content');
+      if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+          moreContent.style.display = 'block';
+          button.textContent = 'Read Less';
+      } else {
+          moreContent.style.display = 'none';
+          button.textContent = 'Read More';
+      }
+  }
+</script>
 
 
 
