@@ -263,3 +263,27 @@ swiper.on('slideChangeTransitionEnd', function () {
     bg.style.height = height + 'px';
     bg.style.transform = 'translateX(' + x + 'px ) translateY(' + y + 'px)';
 });
+// function of read more 
+function toggleContent(button) {
+    // Get all the more-content elements
+    const allMoreContent = document.querySelectorAll('.more-content');
+
+    // Close any currently open sections except the one that is being clicked
+    allMoreContent.forEach(content => {
+        if (content.style.display === 'block' && content !== button.parentElement.querySelector('.more-content')) {
+            content.style.display = 'none';
+            content.parentElement.querySelector('.btn').textContent = 'Read More';
+        }
+    });
+
+    // Toggle the clicked section
+    const box = button.parentElement;
+    const moreContent = box.querySelector('.more-content');
+    if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+        moreContent.style.display = 'block';
+        button.textContent = 'Read Less';
+    } else {
+        moreContent.style.display = 'none';
+        button.textContent = 'Read More';
+    }
+}

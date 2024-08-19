@@ -62,10 +62,10 @@ section {
 .hbtn {
   margin-top: 1rem;
   display: inline-block;
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid rgb(201 19 19);
  /* background: #10221b;
   color: #fff;*/ 
-  border-radius: 20px;
+  border-radius: 10px;
   color: #10221b;
   cursor: pointer;
   background: none;
