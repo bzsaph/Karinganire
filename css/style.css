@@ -1592,3 +1592,8 @@ a .news__item:hover {
 
 
 /*# sourceMappingURL=style.css.map */
+.swiper-slide p{
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
